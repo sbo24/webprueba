@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+        <header></header>
+        <div id="principal"></div>
+        <nav>
+            <ul>
+                <a href="index.html">
+                    <li>HOME</li>
+                </a>
+            </ul>
+            <ul>
+                <a href="parrafo.html">
+                    <li>PARRAFOS</li>
+                </a>
+            </ul>
+            <ul>
+                <a href="enlaces.html">
+                    <li>ENLACES</li>
+                </a>
+            </ul>
+            <ul>
+                <a href="">
+                    <li>IMAGENES</li>
+                </a>
+            </ul>
+            <ul>
+                <a href="tablas.html">
+                    <li>TABLAS</li>
+                </a>
+            </ul>
+            <ul>
+                <a href="listas.html">
+                    <li>LISTAS</li>
+                </a>
+            </ul>
+            <ul>
+                <a href="formulario.html">
+                    <li>FORMULARIOS</li>
+                </a>
+            </ul>
+            <ul>
+                <a href="multimedia.html">
+                    <li>MULTIMEDIA</li>
+                </a>
+            </ul>
+            <ul>
+                <a href="formularioshtml.html">
+                    <li>FORMHTML5</li>
+                </a>
+            </ul>
+
+        </nav>
+        <div id="content">
+
+            <div class="parrafo">
+                <h1>TABLAS</h1>
+            </div>
+
+
+            <div>
+
+                <!--Tabla de Encabezado de Fila-->
+                <h2>Tabla de Encabezado de Fila</h2>
+                <table class="te" border="2">
+                    <tr>
+                        <th>RAQUETA</th>
+                        <th>PELOTA</th>
+                        <th>RED</th>
+                        <th>CUERDA</th>
+                        <th>MUÑEQUERA</th>
+                    </tr>
+                    <tr>
+                        <td>BABOLAT</td>
+                        <td>WILSON</td>
+                        <td>NYLON</td>
+                        <td>TECNIFIBRE</td>
+                        <td>ADIDAS</td>
+                    </tr>
+                    <tr>
+                        <td>WILSON</td>
+                        <td>X.ONE</td>
+                        <td>BELEN</td>
+                        <td>BABOLAT DUO</td>
+                        <td>NIKE</td>
+                    </tr>
+                    <tr>
+                        <td>DUNLOP</td>
+                        <td>STARTER BALL</td>
+                        <td>RACKET ROOTS</td>
+                        <td>LUXILON</td>
+                        <td>DUNLOP</td>
+                    </tr>
+                </table>
+                <br>
+                <!--Tabla de Encabezado de columna-->
+                <h2>Tabla de Encabezado de Columna</h2>
+                <table class="te" border="2">
+
+                    <tr>
+                        <th>PELOTA</th>
+                        <td>WILSON</td>
+                        <td>NYLON</td>
+                        <td>TECNIFIBRE</td>
+                        <td>ADIDAS</td>
+                    </tr>
+                    <tr>
+                        <th>RED</th>
+                        <td>X.ONE</td>
+                        <td>BELEN</td>
+                        <td>BABOLAT DUO</td>
+                        <td>NIKE</td>
+                    </tr>
+                    <tr>
+                        <th>CUERDA</th>
+                        <td>STARTER BALL</td>
+                        <td>RACKET ROOTS</td>
+                        <td>LUXILON</td>
+                        <td>DUNLOP</td>
+                    </tr>
+                </table>
+                <br>
+                <!--Tabla con combinacion de celdas-->
+                <h2>Tabla con combinacion de celdas</h2>
+                <table class="te" border="2">
+
+                    <tr>
+                        <th rowspan="3">PELOTA</th>
+                        <td>WILSON</td>
+                        <td>NYLON</td>
+                        <td>TECNIFIBRE</td>
+                        <td>ADIDAS</td>
+                    </tr>
+                    <tr>
+
+                        <td>X.ONE</td>
+                        <td>BELEN</td>
+                        <td colspan="2">BABOLAT DUO</td>
+
+                    </tr>
+                    <tr>
+
+                        <td>STARTER BALL</td>
+                        <td>RACKET ROOTS</td>
+                        <td>LUXILON</td>
+                        <td>DUNLOP</td>
+                    </tr>
+                </table>
+
+                <!--Tabla striped-->
+                <h2>Tabla Striped hover</h2>
+                <table class="stripedhover" border="2">
+                    <tr>
+                        <th>RAQUETA</th>
+                        <th>PELOTA</th>
+                        <th>RED</th>
+                        <th>CUERDA</th>
+                        <th>MUÑEQUERA</th>
+                    </tr>
+                    <tr>
+                        <td>BABOLAT</td>
+                        <td>WILSON</td>
+                        <td>NYLON</td>
+                        <td>TECNIFIBRE</td>
+                        <td>ADIDAS</td>
+                    </tr>
+                    <tr>
+                        <td>WILSON</td>
+                        <td>X.ONE</td>
+                        <td>BELEN</td>
+                        <td>BABOLAT DUO</td>
+                        <td>NIKE</td>
+                    </tr>
+                    <tr>
+                        <td>DUNLOP</td>
+                        <td>STARTER BALL</td>
+                        <td>RACKET ROOTS</td>
+                        <td>LUXILON</td>
+                        <td>DUNLOP</td>
+                    </tr>
+                </table>
+                <!--Tabla striped-->
+                <h2>Tabla Striped</h2>
+                <table class="striped" border="2">
+                    <tr>
+                        <th>RAQUETA</th>
+                        <th>PELOTA</th>
+                        <th>RED</th>
+                        <th>CUERDA</th>
+                        <th>MUÑEQUERA</th>
+                    </tr>
+                    <tr>
+                        <td>BABOLAT</td>
+                        <td>WILSON</td>
+                        <td>NYLON</td>
+                        <td>TECNIFIBRE</td>
+                        <td>ADIDAS</td>
+                    </tr>
+                    <tr>
+                        <td>WILSON</td>
+                        <td>X.ONE</td>
+                        <td>BELEN</td>
+                        <td>BABOLAT DUO</td>
+                        <td>NIKE</td>
+                    </tr>
+                    <tr>
+                        <td>DUNLOP</td>
+                        <td>STARTER BALL</td>
+                        <td>RACKET ROOTS</td>
+                        <td>LUXILON</td>
+                        <td>DUNLOP</td>
+                    </tr>
+                </table>
+
+                <br>
+                <br>
+                <br>
+                <div class="horario">
+                    <!--Tabla horario-->
+                    <h2 class="parrafo">Tabla horario</h2>
+                    <table class="horario" border="2">
+                        <tr>
+                            <th colspan="6" class="lao"><i class="fa fa-italic"
+                                    aria-hidden="true"><strong>S1DAW</strong></i></th>
+                        </tr>
+                        <tr>
+                            <th class="lao"> /~\</th>
+                            <td class="la">Lunes</td>
+                            <td class="la">Martes</td>
+                            <td class="la">Miercoles</td>
+                            <td class="la">Jueves</td>
+                            <td class="la">Viernes</td>
+                        </tr>
+                        <tr>
+                            <th class="lao">8:15<br>9:10</th>
+                            <td rowspan="2" class="rj">BDD<br>Bern. Be, Cr<br>(1 B-301)</td>
+                            <td class="am">FOL<br>Proud. Ga, Es<br>(1 B-301)</td>
+                            <td class="vd">ENDE<br>Polo. Or, Ed<br>(1 B-301)</td>
+                            <td rowspan="2" class="nj">SISI<br>Alva. Gi, An<br>(1 B-301)</td>
+                            <td rowspan="2" class="nj">SISI<br>Alva. Gi, An<br>(1 B-301)</td>
+                        </tr>
+                        <tr>
+                            <th class="lao">9:10<br>10:05</th>
+                            <td class="vd">ENDE<br>Polo. Or, Ed<br>(1 B-301)</td>
+                            <td class="am">FOL<br>Proud. Ga, Es<br>(1 B-301)</td>
+
+
+                        </tr>
+                        <tr>
+                            <th class="lao">10:05<br>11:00</th>
+                            <td class="nj">SISI<br>Alva. Gi, An<br>(1 B-301)</td>
+                            <td class="al">PROG<br>Mart Ca, JoJa<br>(1 B-301)</td>
+                            <td class="al">PROG<br>Mart Ca, JoJa<br>(1 B-301)</td>
+                            <td class="al">PROG<br>Mart Ca, JoJa<br>(1 B-301)</td>
+                            <td class="vo">ING<br>Corr. Pi, JoMa<br>(1 B-301)</td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <th colspan="5" class="lao">recreo</th>
+                        </tr>
+                        <tr>
+                            <th class="lao">11:30<br>12:25</th>
+                            <td class="nj">SISI<br>Alva. Gi, An<br>(1 B-301)</td>
+                            <td class="al">PROG<br>Mart Ca, JoJa<br>(1 B-301)</td>
+                            <td class="al">PROG<br>Mart Ca, JoJa<br>(1 B-301)</td>
+                            <td class="al">PROG<br>Mart Ca, JoJa<br>(1 B-301)</td>
+                            <td class="vd">ENDE<br>Polo. Or, Ed<br>(1 B-301)</td>
+                        </tr>
+                        <tr>
+                            <th class="lao">12:25<br>13:20</th>
+                            <td rowspan="2" class="vc">LMSG<br>Puli. Mo, FrJo<br>(1 B-301)</td>
+                            <td rowspan="2" class="rj">BDD<br>Bern. Be, Cr<br>(1 B-301)</td>
+                            <td rowspan="2" class="rj">BDD<br>Bern. Be, Cr<br>(1 B-301)</td>
+                            <td class="am">FOL<br>Proud. Ga, Es<br>(1 B-301)</td>
+                            <td rowspan="2" class="vc">LMSG<br>Puli. Mo, FrJo<br>(1 B-301)</td>
+                        </tr>
+                        <tr>
+                            <th class="lao">13:20<br>14:15</th>
+                            <td class="vo">ING<br>Corr. Pi, JoMa<br>(1 B-301)</td>
+                        </tr>
+                    </table>
+                </div>
+                <br>
+
+            </div>
+        </div>
+
+        <div class="cb"></div>
+        <footer>&copy; Saul</footer>
+
+
+    </div>
+
+
+
+
+
+
+
+</body>
+
+</html>

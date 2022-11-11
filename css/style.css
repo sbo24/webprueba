@@ -1,0 +1,432 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: hsla(0, 0%, 0%, 1);
+
+    background: linear-gradient(90deg, hsla(0, 0%, 0%, 1) 7%, hsla(203, 91%, 64%, 1) 100%, hsla(203, 76%, 60%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(0, 0%, 0%, 1) 7%, hsla(203, 91%, 64%, 1) 100%, hsla(203, 76%, 60%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(0, 0%, 0%, 1) 7%, hsla(203, 91%, 64%, 1) 100%, hsla(203, 76%, 60%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#4DB6F7", GradientType=1);
+}
+
+.contenedor {
+    background-color: whitesmoke;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: grey;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px;
+    border-radius: 0.5%;
+    object-fit: cover;
+    width: 100%;
+    object-fit: fill;
+    flex: auto;
+
+
+
+
+}
+
+
+footer {
+    text-align: center;
+    background-color: rgb(0, 149, 255);
+    padding: 16px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: rgb(204, 251, 15);
+    border-radius: 4px;
+}
+
+nav {
+    float: left;
+    width: 20%;
+    background: hsla(203, 91%, 64%, 1);
+
+    background: linear-gradient(90deg, hsla(203, 91%, 64%, 1) 0%, hsla(0, 0%, 0%, 1) 100%, hsla(203, 76%, 60%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(203, 91%, 64%, 1) 0%, hsla(0, 0%, 0%, 1) 100%, hsla(203, 76%, 60%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(203, 91%, 64%, 1) 0%, hsla(0, 0%, 0%, 1) 100%, hsla(203, 76%, 60%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#4DB6F7", endColorstr="#000000", GradientType=1);
+}
+
+#content {
+
+    float: right;
+    width: 80%;
+    padding-left: 20px;
+}
+
+.cb {
+    clear: both;
+}
+
+nav ul li {
+    font-size: 15px;
+    background-color: rgb(223, 239, 1);
+    text-align: center;
+    padding: 9.7px;
+    color: rgb(108, 106, 2);
+    border: solid 2px rgb(44, 43, 43);
+    border-radius: 4px;
+    -webkit-transition: box-shadow 0.2s 0.1s linear;
+    -moz-transition: box-shadow 0.2s 0.1s linear;
+    -o-transition: box-shadow 0.2s 0.1s linear;
+    transition: box-shadow 0.2s 0.1s linear;
+
+
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium';
+    color: red;
+}
+
+a:hover {
+    color: rgb(14, 78, 238);
+}
+
+
+nav ul li:hover {
+    color: white;
+    transition: color 0.8s;
+
+
+    box-shadow: inset 0 -100px 0 0 rgb(108, 106, 2);
+    box-shadow: 0px 0px 50px 0px #050505 inset;
+
+
+}
+
+
+
+nav ul li:active {
+    color:blue;
+    box-shadow: inset 0 -100px 0 0 rgb(108, 106, 2);
+    box-shadow: 0px 0px 50px 0px #0e0d07 inset;
+
+}
+
+
+#home {
+
+
+    text-align: center;
+    padding: 10px;
+
+}
+
+#home img {
+
+
+    padding-top: 50px;
+
+
+}
+
+img {
+    pointer-events: none;
+}
+
+
+
+.parrafo {
+
+    text-align: center;
+
+}
+
+
+
+span {
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium'
+
+}
+
+
+
+/*LISTAS*/
+
+.lista {
+    padding: 0 270px;
+}
+
+ul.ldc li {
+    list-style-type: circle
+}
+
+ul.ldc li ul li {
+    list-style-type: disc
+}
+
+ul.ldc li ul li ul li {
+    list-style-type: square
+}
+
+
+
+ol.loc li {
+    list-style-type: upper-alpha;
+
+}
+
+ol.loc li ol li {
+    list-style-type: lower-latin;
+}
+
+ol.loc li ol li ol li {
+    list-style-type: decimal;
+
+}
+
+ol.loci li {
+    list-style-type: decimal
+}
+
+ol.loci li ol li {
+    list-style-image: url(../img/tenis.jpg);
+}
+
+ol.loci li ol li ol li {
+    list-style-type: decimal;
+    list-style-image: none;
+
+}
+
+
+
+
+dt {
+    font-family: 'Lucida Sans Unicode';
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(181, 250, 44);
+}
+
+/*tabla*/
+
+
+.tabla {
+    padding: 0 270px;
+}
+
+table.te th {
+    background-color: blue;
+    color: rgb(0, 208, 255);
+}
+
+table.te td {
+    background-color: rgb(0, 208, 255);
+    color: blue;
+    text-align: center;
+}
+
+
+
+
+table.stripedhover tr:hover {
+    background-color: #ade8e8;
+}
+
+table.stripedhover {
+    text-align: center;
+}
+
+
+
+
+table.striped tr:nth-child(even) {
+    background-color: #ade8e8;
+}
+
+table.striped tr:nth-child(odd) {
+    background-color: #eaecec;
+}
+
+table.striped {
+    text-align: center;
+}
+
+
+
+table.horario {
+    margin: auto;
+    text-align: center;
+}
+
+.lao {
+    color: rgb(33, 132, 128);
+    font-weight: bolder;
+    font-size: large;
+}
+
+.la {
+    color: rgb(58, 157, 166)
+}
+
+.rj {
+    background-color: rgb(255, 128, 128);
+}
+
+.nj {
+    background-color: rgb(255, 162, 100);
+}
+
+.am {
+    background-color: rgb(255, 255, 100);
+}
+
+.vd {
+    background-color: rgb(0, 185, 92);
+}
+
+.al {
+    background-color: rgb(0, 128, 255);
+}
+
+
+.vc {
+    background-color: rgb(0, 223, 0);
+}
+
+.vo {
+    background-color: rgb(210, 210, 110);
+}
+
+
+
+/*formulario*/
+
+.formizq {
+    float: left;
+    width: 50%;
+}
+
+.formder {
+    float: right;
+    width: 50%;
+    padding-left: 140px;
+}
+
+textarea {
+    resize: none
+}
+
+legend.formn {
+    font-family: monospace;
+    font-size: 20px;
+}
+
+
+
+fieldset.formn {
+    border-radius: 30px;
+    border-width: 15px;
+    border-color: yellow;
+    width: 28%;
+}
+
+
+
+input.user {
+    background: url(../img/user.png);
+    padding-left: 18px;
+    background-size: 17px;
+    background-repeat: no-repeat;
+    background: cover;
+    border-radius: 3px;
+
+}
+
+
+input.pass {
+    background: url(../img/pass.png);
+    padding-left: 18px;
+    background-size: 17px;
+    background-repeat: no-repeat;
+    background: cover;
+    border-radius: 3px;
+
+}
+
+
+
+
+option {
+    font-family: monospace
+}
+
+select {
+    font-family: monospace
+}
+
+
+
+/*formulario html5*/
+
+.formhtm5 {
+    margin: auto;
+}
+
+
+legend.formhtm5 {
+    font-family: monospace;
+    font-size: 20px;
+}
+
+
+
+fieldset.formhtm5 {
+    border-radius: 30px;
+    border-width: 15px;
+    border-color: yellow;
+    width: 28%;
+}
+
+
+.cotenform {
+    margin: auto;
+    width: 0%;
+    padding: 10px;
+}
+
+
+/*video*/
+
+.video {
+
+    margin: 0 auto;
+    padding-left: 15%;
+
+}
+
+.audio {
+
+    margin: 0 auto;
+    padding-left: 35%;
+
+}
